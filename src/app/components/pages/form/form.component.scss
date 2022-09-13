@@ -1,0 +1,61 @@
+body{
+    background-color: #f2f7ff;
+}
+#inputboxImg{
+    display: block; 
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.form-control:focus {
+    border-color: #f44336 !important;
+    box-shadow: 0 0 5px rgba(98, 101, 228, 1) !important;
+  }
+.customBtn{
+    background-color: #f44336 !important;
+    border: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+}
+.btn-outline{
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: transparent !important;
+    border: 1px solid #8C93AA;
+}
+
+.btn-outline:hover{
+    background-color: #f44336 !important;
+    color: white;
+}
+
+.sv-file-input {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.sv-file-input .input__box {
+    height: 60px;
+    width: 70px;
+    border-radius: 8px;
+    border: 1px solid #f44336;
+    border-style: dotted;
+    background: rgba(70,77,235,0.1);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sv-file-input input{
+    display: none;
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    #inputboxImg{
+        margin-left: 14px;
+        margin-top: 12px;
+    }
+ }
