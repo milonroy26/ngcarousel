@@ -49,6 +49,33 @@
                   <input placeholder="01XXXXXXXXX" type="number" class="form-control">
                 </div>
 
+                <div class="col-md-4">
+                  <label class="form-label">NID Number *</label>
+                  <input placeholder="0XXXXXXXXX" type="number" class="form-control mt-2">
+                </div>
+
+                <div class="col-md-4 ">
+                  <label for="formFile" class="form-label">NID Front Side</label>
+                  <label class="sv-file-input">
+                    <input type="file" class="profileImageUpload">
+                        <div class="input__box">
+                            <img id="inputboxImg" src="../../../../assets/svg_icon/card-image.svg" alt="" width="35px">
+                        </div>
+                        <span class="input__text">Upload Your Photo (png, jpeg, jpg)</span>
+                </label>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="formFile" class="form-label">NID Back Side</label>
+                  <label class="sv-file-input">
+                    <input type="file" class="profileImageUpload">
+                        <div class="input__box">
+                            <img id="inputboxImg" src="../../../../assets/svg_icon/card-image.svg" alt="" width="35px">
+                        </div>
+                        <span class="input__text">Upload Your Photo (png, jpeg, jpg)</span>
+                </label>
+                </div>
+
                 <div class="col-12">
                     <label class="form-check-label" for="gridCheck">Address</label>
                     <textarea placeholder="e.g. House#1, Road#1, Gulshan-1, Dhaka" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -61,4 +88,33 @@
             
         </div>
     </div>
+</div>
+
+
+<h4 class="text-center">Login part</h4>
+<div class="container">
+  <div class="row">
+      <div class="col-12 py-4 p-5" style="box-shadow: 0px 5px 20px rgb(19 33 68 / 5%);">
+
+          <div class="row g-3">
+              <div class="col-md-12">
+                <label class="form-label">Current Password *</label>
+                <input  class="form-control" type="password">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">New Password *</label>
+                <input class="form-control" type="password">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Confirm Password * *</label>
+                <input  class="form-control" type="password">
+              </div>
+              <div class="col-12">
+                <button class="customBtn btn-primary">Update</button>
+                <button class="btn-outline ms-3">Cancel</button>
+              </div>
+            </div>
+          
+      </div>
+  </div>
 </div>
