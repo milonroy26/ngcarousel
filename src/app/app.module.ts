@@ -4,9 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './components/pages/carousel/carousel.component';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormComponent } from './components/pages/form/form.component';
+
+// Import your library
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -18,8 +21,9 @@ import { FormComponent } from './components/pages/form/form.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SlickCarouselModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
